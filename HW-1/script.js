@@ -10,14 +10,14 @@ let isStudent = false;
 
 console.log(isStudent);
 
-const mystring = "любовь не спички скибиди яички";
+const myString = "любовь не спички скибиди яички";
 
-console.log(mystring);
+console.log(myString);
 
-let mynumber = 67;
-mynumber = mynumber + 10;
+let myNumber = 67;
+myNumber = myNumber + 10;
 
-console.log(mynumber);
+console.log(myNumber);
 
 let myNull = null;
 
