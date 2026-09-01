@@ -23,7 +23,12 @@ health -= 50;
 
 console.log(health);
 
-let totalPrice = 100;
+let energy = 100;
+energy -= 20;
+
+console.log(energy);
+
+let totalPrice = 189;
 
 console.log(totalPrice);
 
@@ -31,37 +36,31 @@ const discount = 10;
 
 console.log(discount);
 
-let discountedPrice = (totalPrice - discount);
+let discountedPrice = totalPrice % discount;
 
 console.log(discountedPrice);
 
 const floatNumber = 12.78;
 
-console.log(Math.floor(floatNumber));
-
-const roundedDown = 12;
+const roundedDown = Math.floor(floatNumber);
 
 console.log(roundedDown)
 
 const floatString = "45.67";
 
-console.log(Number.parseFloat(floatString));
-
-const parsedFloat = 45.67 ;
+const parsedFloat = Number.parseFloat(floatString);
 
 console.log(parsedFloat);
 
 const intString = "123";
 
-console.log(Number.parseInt(intString));
-
-const parsedInt = 123;
+const parsedInt = Number.parseInt(intString);
 
 console.log(parsedInt);
 
 const number = 6 ;
 
-console.log(Math.pow(number,2));
+console.log(Math.sqrt(number,2));
 
 const sqrtNumber = 36;
 
