@@ -13,11 +13,13 @@ else{
     
 }
 
-const numberarea1 = prompt(`введіть число`);
+const numberarea1 = Number(prompt("введіть число"));
 
-const numberarea2 = prompt(`введіть число`);
+const numberarea2 = Number(prompt("введіть число"));
 
-if(numberarea1 && numberarea2 <= 10){
+const sum = numberarea1 + numberarea2;
+
+if(sum <= 10){
     console.log(`Сума менша abo дорівнює 10`);
     
 }
@@ -29,7 +31,7 @@ else {
 
 const textarea3 = prompt("textjs");
 
-if (textarea3 == `JavaScript`){
+if (textarea3.includes("JavaScript")){
     console.log("Текст містить слово JavaScript");
     
 }
@@ -38,7 +40,7 @@ else{
     
 }
 
-const numberarea3 = prompt(`writ numbr`);
+const numberarea3 = Number(prompt(`writ numbr`));
 
 if (numberarea3 >= 10 && numberarea3 <= 20) {
     console.log("Число входить в діапазон від 10 до 20");
@@ -53,7 +55,7 @@ const email = prompt(`write email`)
 
 const password = prompt(`write password`)
 
-if(name >= 3 || email == `@` || password >= 6){
+if(name.length >= 3 && email.includes("@") && email.includes(".") && password.length >= 6){
     console.log("Перенаправлення на іншу сторінку");
     
 }
