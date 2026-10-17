@@ -75,4 +75,24 @@ console.log(live);
 
 
 
+function changeCase (text){
+    let res = "";
+    for(const letter of text){
+        // console.log(letter);
+        
+        if(letter === letter.toLowerCase()){
+            console.log(letter);
+            res += letter.toUpperCase()
+        }else{
+            res += letter.toLowerCase()
+        }
+    }
+    return res
+// console.log(text);
 
+} ;
+
+// Напиши функцию changeCase(string) яка замінює регістр кожного символа в рядку на протилежний. Наприклад, якщо рядок «JavaScript», то на виході повинно бути «jAVAsCRIPT».
+console.log(changeCase('qweRTY')); // QWErty
+console.log(changeCase('mAnGo')); // MaNgO
+console.log(changeCase('AjAx')); // aJaX
