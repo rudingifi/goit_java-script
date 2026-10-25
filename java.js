@@ -96,3 +96,27 @@ function changeCase (text){
 console.log(changeCase('qweRTY')); // QWErty
 console.log(changeCase('mAnGo')); // MaNgO
 console.log(changeCase('AjAx')); // aJaX
+
+
+
+
+// Знайдіть суму елементів масиву з використанням колбек-функції
+const arr = [1, 2, 3, 4, 5];
+
+function sumArray(arr, callback) {
+   let sum = 0;
+
+    for(const itm of arr){
+        sum += itm;
+
+    }
+    callback(sum)
+
+}
+
+function cb(res){
+    console.log(res);
+    
+}
+
+sumArray(arr, cb);
