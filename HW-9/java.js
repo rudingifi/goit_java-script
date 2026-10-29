@@ -163,3 +163,4 @@ for(let i = 0; i < numbers.length; i++){
 }
 
 console.log('Загальна сума чисел дорівнює ' + total);
+

@@ -78,3 +78,7 @@ const stars = i => console.log('*'.repeat(i + 1));
 repeatMessage(3, hello);
 repeatMessage(3, countdown);
 repeatMessage(4, stars);
+
+
+// Створіть об'єкт "restaurant" з властивостями "name", "cuisine", "address" та "rating". Додайте до об'єкту метод, який дозволить змінювати значення властивостей "address" та "rating"
+

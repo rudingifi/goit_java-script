@@ -120,3 +120,21 @@ function cb(res){
 }
 
 sumArray(arr, cb);
+
+const restaurant = {
+    name:"la pausa",
+    cuisine:"italian",
+    address:"wien 1488",
+    rating:67,
+    
+    changeinfo(newAddress, newRating) {
+        this.address = newAddress
+        this.rating = newRating
+    }
+
+
+};
+
+    restaurant.changeinfo("misto kiev center", 69)
+
+console.log(restaurant);
