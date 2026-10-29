@@ -108,3 +108,5 @@ const movie = {
 };
 
 console.log(movie.ratingCheck());
+console.log(movie);
+
